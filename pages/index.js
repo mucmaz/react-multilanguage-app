@@ -77,11 +77,11 @@ function Home() {
               <i className="fab fa-github"></i>
             </a>
           </div>
-          <div className="icon mr-20 w-22 h-20 ml-20 text-4xl bg-gray-200 p-4 rounded hover:bg-gray-300 transition-all cursor-pointer">
+          <div className="icon mr-20 w-22 h-20 ml-20 text-4xl bg-gray-200 p-4 rounded hover:bg-gray-300 transition-all cursor-pointer" 
+              onClick={handleClick}>
             <i
               className="fab fa-discord"
               aria-describedby={id}
-              onClick={handleClick}
             ></i>
           </div>
           <div className="icon text-5xl w-20 h-20 bg-gray-200 p-4 rounded hover:bg-gray-300 transition-all cursor-pointer">
