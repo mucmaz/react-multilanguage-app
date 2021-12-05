@@ -10,7 +10,7 @@ First install the dependencies
 npm install
 ```
 
-First, run the development server:
+And, run the development server:
 
 ```bash
 # used npm for this app
